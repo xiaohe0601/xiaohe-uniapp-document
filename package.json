@@ -1,0 +1,20 @@
+{
+  "name": "uniapp-vue2-hbx-starter-document",
+  "version": "1.0.0",
+  "description": "🚀 一个开箱即用的uniapp脚手架",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:build": "vuepress build docs",
+    "docs:update-package": "pnpm dlx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.61",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.61",
+    "vuepress-plugin-search-pro": "2.0.0-beta.190",
+    "vuepress-theme-hope": "2.0.0-beta.189"
+  }
+}
