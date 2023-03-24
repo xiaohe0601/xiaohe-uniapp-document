@@ -65,14 +65,6 @@ icon: light
 	不要混用依赖管理工具，以免造成各种奇怪的问题。
 	:::
 
-1. 代码格式化风格配置（推荐使用，但不是必须）
-
-	- 复制 `/.settings/jsbeautifyrc.js` 中的内容
-
-	- 打开 `jsbeautify` 配置文件（HBuilderX -> 工具 -> 设置 -> 插件配置 -> jsbeautify -> 打开文件jsbeautifyrc.js进行配置）
-
-	- 将复制的内容替换 `jsbeautifyrc.js` 原本的内容即可
-
 1. [运行项目](https://uniapp.dcloud.net.cn/quickstart-hx.html#%E8%BF%90%E8%A1%8Cuni-app)
 
 1. [发行项目(即所谓的打包)](https://uniapp.dcloud.net.cn/quickstart-hx.html#%E5%8F%91%E5%B8%83uni-app)

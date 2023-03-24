@@ -28,8 +28,8 @@ uniapp-vue2-hbx-starter
 ├─.env                      # 通用环境变量
 ├─.env.development          # 开发环境变量
 ├─.env.production           # 生产环境变量
-├─.settings                 # HBuilderX推荐配置
-├─.editorconfig             # editorconfig
+├─.editorconfig             # editorconfig配置文件
+├─.jsbeautifyrc             # jsbeautify配置文件
 ├─.gitignore                # git忽略文件
 └-yarn.lock                 # 推荐使用Yarn管理依赖
 ```
