@@ -5,13 +5,14 @@ icon: emoji
 
 ### 徽章
 
-![](https://img.shields.io/github/stars/MyHdg0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
-![](https://img.shields.io/github/forks/MyHdg0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
-![](https://img.shields.io/github/watchers/MyHdg0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
-![](https://img.shields.io/github/license/MyHdg0601/uniapp-vue2-hbx-starter?style=flat-square){.repo-badge}
+![GitHub stars](https://img.shields.io/github/stars/MyHdg0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub forks](https://img.shields.io/github/forks/MyHdg0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub watchers](https://img.shields.io/github/watchers/MyHdg0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub release](https://img.shields.io/github/v/release/MyHdg0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub license](https://img.shields.io/github/license/MyHdg0601/uniapp-vue2-hbx-starter?style=flat-square){.repo-badge}
 
-![](https://gitee.com/MyHdg/uniapp-vue2-hbx-starter/badge/star.svg?theme=dark){.repo-badge}
-![](https://gitee.com/MyHdg/uniapp-vue2-hbx-starter/badge/fork.svg?theme=dark){.repo-badge}
+![Gitee stars](https://gitee.com/MyHdg/uniapp-vue2-hbx-starter/badge/star.svg?theme=dark){.repo-badge}
+![Gitee forks](https://gitee.com/MyHdg/uniapp-vue2-hbx-starter/badge/fork.svg?theme=dark){.repo-badge}
 
 ### 作者
 
