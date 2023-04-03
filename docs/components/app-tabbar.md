@@ -45,16 +45,22 @@ title: AppTabbar 底部导航栏
 |--app-tabbar__item_width|tab item宽度|120rpx|
 |--app-tabbar__icon_size|图标大小|56rpx|
 |--app-tabbar__icon_fontsize|图标的font-size（使用iconfont字段时有效）|50rpx|
-|--app-tabbar__txt_mtop|文字的 `margin-top`|6rpx|
+|--app-tabbar__txt_mtop|文字的margin-top|6rpx|
 |--app-tabbar__txt_size|文字大小|24rpx|
 |--app-tabbar__txt_weight|文字字重|500|
 |--app-tabbar__txt_color|文字颜色|#bbbdd4|
 |--app-tabbar__txt_color--selected|文字颜色（选中状态）|var(--color-accent)|
-|--app-tabbar__badge_size--dot|圆点型badge大小|10rpx|
+|--app-tabbar__badge_top--dot|圆点型badge的top|0|
+|--app-tabbar__badge_right--dot|圆点型badge的right|20rpx|
+|--app-tabbar__badge_size--dot|圆点型badge大小|14rpx|
+|--app-tabbar__badge_radius--dot|圆点型badge圆角大小|50%|
+|--app-tabbar__badge_top--text|文字型badge的top|-10rpx|
+|--app-tabbar__badge_right--text|文字型badge的left|10rpx|
 |--app-tabbar__badge_size--text|文字型badge文字大小|20rpx|
+|--app-tabbar__badge_padding--text|文字型badge内边距|0 10rpx|
 |--app-tabbar__badge_radius--text|文字型badge圆角大小|20rpx|
 |--app-tabbar__badge_color|文字型badge文字颜色|#ffffff|
-|--app-tabbar__badge_background|badge背景颜色|#ff6d2c|
+|--app-tabbar__badge_background|badge背景颜色|#fc3b3b|
 
 ### 自定义Tabbar
 
