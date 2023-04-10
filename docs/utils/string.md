@@ -125,10 +125,10 @@ splitString(str4, ";");
 const str1 = null;
 const str2 = "some_string";
 
-splitString(str1);
+toHumpString(str1);
 // => null
 
-splitString(str2);
+toHumpString(str2);
 // => "someString"
 ```
 :::
@@ -150,10 +150,10 @@ splitString(str2);
 const str1 = null;
 const str2 = "someString";
 
-splitString(str1);
+toUnderlineString(str1);
 // => null
 
-splitString(str2);
+toUnderlineString(str2);
 // => "some_string"
 ```
 :::
@@ -188,17 +188,17 @@ const url2 = "/someurl";
 const url3 = "someurl";
 const url4 = "https://someurl";
 
-splitString(url1);
+convertRelativePath(url1);
 // => null
 
-splitString(url2);
+convertRelativePath(url2);
 // => "#路径基地址/someurl"
 
-splitString(url3);
+convertRelativePath(url3);
 // => "#路径基地址/someurl"
 // 自动添加了斜杠
 
-splitString(url4);
+convertRelativePath(url4);
 // => "https://someurl"
 // 如果源路径带有协议头或者开头部分与baseUrl相同，则原样返回
 ```
