@@ -36,11 +36,17 @@ export default HopeTheme({
           "app-video",
           "app-area-picker"
         ],
-        "/utils": [
-          "string",
-          "array",
-          "device"
-        ],
+        "/utils": [{
+          text: "xiaohejs",
+          children: [
+            { text: "文档首页", link: "https://myhdg0601.github.io/xiaohejs-document" },
+            { text: "快速上手", link: "https://myhdg0601.github.io/xiaohejs-document/guide/getting-started.html" },
+            { text: "工具列表", link: "https://myhdg0601.github.io/xiaohejs-document/utils" }
+          ]
+        }, {
+          text: "内置",
+          children: ["device"]
+        }],
         "/about": [
           "changelog",
           "discuss",
