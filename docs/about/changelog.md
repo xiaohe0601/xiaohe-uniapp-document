@@ -7,6 +7,14 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/commits/main)
 :::
 
+### 2023-04-13
+
+- 发布 1.0.2 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.2)
+
+- 优化 AppAreaPicker加载动画
+
+- 优化 代码规范
+
 ### 2023-04-03
 
 - 发布 1.0.1 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.1)
