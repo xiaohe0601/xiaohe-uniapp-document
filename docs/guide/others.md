@@ -161,11 +161,8 @@ icon: file
 	  <app-navbar title="页面标题"></app-navbar>
 
 	  <!-- 若需要修改css变量，建议在外层view的class或style中配置 -->
-	  <view class="app-scroller"
-	        :style="{height: `calc(100% - ${navigationBarHeight}px)`}">
-	    <z-paging ref="scroller"
-	              v-model="records"
-	              @query="requestRecords">
+	  <view class="app-scroller" :style="{height: `calc(100% - ${navigationBarHeight}px)`}">
+	    <z-paging ref="scroller" v-model="records" @query="requestRecords">
 
 	      <!-- 列表内容 -->
 
