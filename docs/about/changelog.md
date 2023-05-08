@@ -7,6 +7,16 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/commits/main)
 :::
 
+### 2023-05-05
+
+- 发布 1.0.4 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.4)
+
+- 调整 app-navbar默认home按钮的图标颜色
+
+- 优化 升级z-paging版本
+
+- 优化 升级uview-ui版本
+
 ### 2023-04-18
 
 - 发布 1.0.3 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.3)
