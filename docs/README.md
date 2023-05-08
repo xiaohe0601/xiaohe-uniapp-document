@@ -2,7 +2,7 @@
 icon: home
 description: 🚀 一个开箱即用的uniapp脚手架
 home: true
-heroImage: /logo.png
+heroImage: /logo.svg
 heroText: uniapp-vue2-hbx-starter
 tagline: 🚀 一个开箱即用的uniapp脚手架
 actions:

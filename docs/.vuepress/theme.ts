@@ -56,7 +56,7 @@ export default HopeTheme({
       })
     }
   },
-  logo: "/logo.png",
+  logo: "/logo.svg",
   repo: "https://github.com/MyHdg0601/uniapp-vue2-hbx-starter",
   editLink: false,
   displayFooter: true,
