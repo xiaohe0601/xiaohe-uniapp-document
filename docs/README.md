@@ -3,7 +3,7 @@ icon: home
 description: 🚀 一个开箱即用的uniapp脚手架
 home: true
 heroImage: /logo.svg
-heroText: uniapp-vue2-hbx-starter
+heroText: xiaohe-uniapp
 tagline: 🚀 一个开箱即用的uniapp脚手架
 actions:
   - text: 快速上手

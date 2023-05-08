@@ -4,7 +4,7 @@ icon: article
 ---
 
 ```
-uniapp-vue2-hbx-starter
+xiaohe-uniapp
 ├─components                # 公共组件
 ├─enums                     # 枚举
 ├─extensions                # 扩展方法

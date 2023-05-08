@@ -9,7 +9,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "uniapp-vue2-hbx-starter",
+      title: "xiaohe-uniapp",
       description: "🚀 一个开箱即用的uniapp脚手架"
     }
   },
