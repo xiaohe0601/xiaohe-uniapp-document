@@ -7,6 +7,12 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/commits/main)
 :::
 
+### 2023-05-09
+
+- 发布 1.0.5 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.5)
+
+- 修改 更名为xiaohe-uniapp
+
 ### 2023-05-05
 
 - 发布 1.0.4 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.4)
