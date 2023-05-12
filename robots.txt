@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://myhdg0601.github.io/uniapp-vue2-hbx-starter-document/sitemap.xml
+Sitemap: https://xiaohe-uniapp.myhdg.top/sitemap.xml
