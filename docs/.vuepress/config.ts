@@ -5,7 +5,7 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme";
 
 export default defineUserConfig({
-  base: "/uniapp-vue2-hbx-starter-document/",
+  base: "/",
   locales: {
     "/": {
       lang: "zh-CN",

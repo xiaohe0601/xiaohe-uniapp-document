@@ -1,7 +1,7 @@
 import { hopeTheme as HopeTheme, navbar as Navbar, sidebar as Sidebar } from "vuepress-theme-hope";
 
 export default HopeTheme({
-  hostname: "https://myhdg0601.github.io",
+  hostname: "https://xiaohe-uniapp.myhdg.top",
   author: {
     name: "小何同学",
     url: "https://github.com/MyHdg0601",
@@ -39,9 +39,9 @@ export default HopeTheme({
         "/utils": [{
           text: "xiaohejs",
           children: [
-            { text: "文档首页", link: "https://myhdg0601.github.io/xiaohejs-document" },
-            { text: "快速上手", link: "https://myhdg0601.github.io/xiaohejs-document/guide/getting-started.html" },
-            { text: "工具列表", link: "https://myhdg0601.github.io/xiaohejs-document/utils" }
+            { text: "文档首页", link: "https://xiaohejs.myhdg.top" },
+            { text: "快速上手", link: "https://xiaohejs.myhdg.top/guide/getting-started.html" },
+            { text: "工具列表", link: "https://xiaohejs.myhdg.top/utils" }
           ]
         }, {
           text: "内置",

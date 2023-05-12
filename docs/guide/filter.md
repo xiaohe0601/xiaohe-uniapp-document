@@ -58,7 +58,7 @@ export default {
 转换相对路径，为相对路径Url拼接基地址 [网络请求](../guide/network.md)
 
 ::: info
-详细请查看[StringUtils.convertUrl](https://myhdg0601.github.io/xiaohejs-document/utils/string.html#stringutils-converturl)，该过滤器为其引用，此处不再赘述
+详细请查看[StringUtils.convertUrl](https://xiaohejs.myhdg.top/utils/string.html#stringutils-converturl)，该过滤器为其引用，此处不再赘述
 :::
 
 ::: details 使用示例（点击展开查看）
