@@ -4,18 +4,18 @@ icon: blog
 ---
 
 ::: tip
-此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/commits/main)
+此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/commits/main)
 :::
 
 ### 2023-05-09
 
-- 发布 1.0.5 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.5)
+- 发布 1.0.5 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.5)
 
 - 修改 更名为xiaohe-uniapp
 
 ### 2023-05-05
 
-- 发布 1.0.4 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.4)
+- 发布 1.0.4 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.4)
 
 - 调整 app-navbar默认home按钮的图标颜色
 
@@ -25,13 +25,13 @@ icon: blog
 
 ### 2023-04-18
 
-- 发布 1.0.3 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.3)
+- 发布 1.0.3 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.3)
 
 - 修复 AppTabbar的badge更新问题
 
 ### 2023-04-13
 
-- 发布 1.0.2 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.2)
+- 发布 1.0.2 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.2)
 
 - 优化 AppAreaPicker加载动画
 
@@ -39,7 +39,7 @@ icon: blog
 
 ### 2023-04-03
 
-- 发布 1.0.1 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.1)
+- 发布 1.0.1 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.1)
 
 - 新增 集成xiaohejs@0.0.9
 
@@ -49,9 +49,9 @@ icon: blog
 
 ### 2023-03-28
 
-- 发布 1.0.0正式版 [查看](https://github.com/MyHdg0601/uniapp-vue2-hbx-starter/releases/tag/1.0.0)
+- 发布 1.0.0正式版 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.0)
 
-- 新增 集成小何同学的JavaScript工具箱 [xiaohejs](https://github.com/MyHdg0601/xiaohejs)
+- 新增 集成小何同学的JavaScript工具箱 [xiaohejs](https://github.com/xiaohe0601/xiaohejs)
 
 ### 2023-02-24
 
