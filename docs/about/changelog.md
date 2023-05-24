@@ -7,6 +7,38 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/commits/main)
 :::
 
+### 2023-05-24
+
+- 发布 1.1.0 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.1.0)
+
+- 新增 AppPicker、AppAreaPicker、AppDatetimePicker、AppDatetimeRangePicker组件
+
+- 新增 AppCalendarPicker组件
+
+- 新增 AppNavigator组件
+
+- 新增 AppLinkScroller组件
+
+- 新增 --color-danger、--color-disabled颜色css变量
+
+- 新增 --app-main__txt_lheight css变量
+
+- 修复 u-view组件库部分缺陷以及新增特性
+
+- 优化 AppTabbar选中方式
+
+- 优化 精简app.scss
+
+- 优化 升级xiaohejs版本
+
+- 优化 部分组件文档样式
+
+- 调整 app-navbar的home按钮颜色受textColor控制
+
+- 移除 common.scss
+
+- 修改 更新文档域名
+
 ### 2023-05-09
 
 - 发布 1.0.5 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.5)
