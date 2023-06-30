@@ -7,6 +7,34 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/commits/main)
 :::
 
+### 2023-06-30
+
+- 发布 1.1.1 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.1.1)
+
+- 新增 AppModal组件
+
+- 新增 AppPicker支持基本类型数据
+
+- 新增 AppAreaPicker支持minLevel参数以控制最小可选层级以及codeLevelLength参数支持Array类型
+
+- 新增 network支持配置错误信息提示方式
+
+- 新增 lifecycleMixin延迟初始化
+
+- 新增 --color-warning颜色css变量
+
+- 优化 网络请求登录失效拦截
+
+- 优化 u-input新增click事件以及优化clearable在readonly下的表现
+
+- 优化 深色模式配色
+
+- 优化 更改部分the前缀变量命名规则
+
+- 优化 部分文件导入顺序
+
+- 调整 echartsMixin初始化完成方法命名
+
 ### 2023-05-24
 
 - 发布 1.1.0 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.1.0)
