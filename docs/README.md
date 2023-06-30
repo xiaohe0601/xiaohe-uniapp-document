@@ -53,3 +53,11 @@ features:
     icon: launch
     details: 更多特性等你发掘...
 ---
+
+::: info 版本信息
+
+- 当前文档版本：<badge text="1.0.5" type="tip"></badge>
+
+- 最新代码版本：<badge text="1.1.1" type="info"></badge> [链接](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.1)
+
+:::
