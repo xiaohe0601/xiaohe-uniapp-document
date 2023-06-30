@@ -63,25 +63,20 @@ export default HopeTheme({
   copyright: `MIT License | Copyright ©️ 2022 <a href="https://github.com/xiaohe0601" target="_blank">小何同学</a>`,
   iconAssets: "iconfont",
   darkmode: "toggle",
-  themeColor: {
-    blue: "#2196f3",
-    red: "#f26d6d",
-    green: "#3eaf7c",
-    orange: "#fb9b5f"
-  },
+  themeColor: true,
   fullscreen: true,
   pageInfo: ["Author", "Date", "Word", "ReadingTime", "Category", "Tag"],
   plugins: {
     mdEnhance: {
       align: true,
       attrs: true,
+      card: true,
       chart: true,
       codetabs: true,
       container: true,
       demo: true,
       echarts: true,
       figure: true,
-      flowchart: true,
       footnote: true,
       gfm: true,
       imgLazyload: true,
@@ -93,9 +88,6 @@ export default HopeTheme({
       mermaid: true,
       playground: {
         presets: ["ts", "vue"]
-      },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"]
       },
       sub: true,
       sup: true,
