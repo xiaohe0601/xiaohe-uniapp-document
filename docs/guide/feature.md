@@ -5,14 +5,14 @@ icon: emoji
 
 ### 徽章
 
-![GitHub stars](https://img.shields.io/github/stars/xiaohe0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub forks](https://img.shields.io/github/forks/xiaohe0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub watchers](https://img.shields.io/github/watchers/xiaohe0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub release](https://img.shields.io/github/v/release/xiaohe0601/uniapp-vue2-hbx-starter?logo=GitHub&style=flat-square){.repo-badge}
-![GitHub license](https://img.shields.io/github/license/xiaohe0601/uniapp-vue2-hbx-starter?style=flat-square){.repo-badge}
+![GitHub stars](https://img.shields.io/github/stars/xiaohe0601/xiaohe-uniapp?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub forks](https://img.shields.io/github/forks/xiaohe0601/xiaohe-uniapp?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub watchers](https://img.shields.io/github/watchers/xiaohe0601/xiaohe-uniapp?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub release](https://img.shields.io/github/v/release/xiaohe0601/xiaohe-uniapp?logo=GitHub&style=flat-square){.repo-badge}
+![GitHub license](https://img.shields.io/github/license/xiaohe0601/xiaohe-uniapp?style=flat-square){.repo-badge}
 
-![Gitee stars](https://gitee.com/xiaohe0601/uniapp-vue2-hbx-starter/badge/star.svg?theme=dark){.repo-badge}
-![Gitee forks](https://gitee.com/xiaohe0601/uniapp-vue2-hbx-starter/badge/fork.svg?theme=dark){.repo-badge}
+![Gitee stars](https://gitee.com/xiaohe0601/xiaohe-uniapp/badge/star.svg?theme=dark){.repo-badge}
+![Gitee forks](https://gitee.com/xiaohe0601/xiaohe-uniapp/badge/fork.svg?theme=dark){.repo-badge}
 
 ### 作者
 
@@ -20,7 +20,7 @@ icon: emoji
 
 ### 仓库
 
-[🎈 github](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter) / [🎗️ gitee](https://gitee.com/xiaohe0601/uniapp-vue2-hbx-starter) / 🎃 no more
+[🎈 github](https://github.com/xiaohe0601/xiaohe-uniapp) / [🎗️ gitee](https://gitee.com/xiaohe0601/xiaohe-uniapp) / 🎃 no more
 
 ### 介绍
 

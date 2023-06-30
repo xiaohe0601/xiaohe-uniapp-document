@@ -4,12 +4,10 @@ icon: blog
 ---
 
 ::: tip
-此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/commits/main)
+此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/xiaohe-uniapp/commits/main)
 :::
 
-### 2023-06-30
-
-- 发布 1.1.1 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.1.1)
+### [1.1.1](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.1) (2023-06-30)
 
 - 新增 AppModal组件
 
@@ -35,9 +33,7 @@ icon: blog
 
 - 调整 echartsMixin初始化完成方法命名
 
-### 2023-05-24
-
-- 发布 1.1.0 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.1.0)
+### [1.1.0](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.0) (2023-05-24)
 
 - 新增 AppPicker、AppAreaPicker、AppDatetimePicker、AppDatetimeRangePicker组件
 
@@ -67,15 +63,11 @@ icon: blog
 
 - 修改 更新文档域名
 
-### 2023-05-09
-
-- 发布 1.0.5 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.5)
+### [1.0.5](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.0.5) (2023-05-09)
 
 - 修改 更名为xiaohe-uniapp
 
-### 2023-05-05
-
-- 发布 1.0.4 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.4)
+### [1.0.4](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.0.4) (2023-05-05)
 
 - 调整 app-navbar默认home按钮的图标颜色
 
@@ -83,23 +75,17 @@ icon: blog
 
 - 优化 升级uview-ui版本
 
-### 2023-04-18
-
-- 发布 1.0.3 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.3)
+### [1.0.3](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.0.3) (2023-04-18)
 
 - 修复 AppTabbar的badge更新问题
 
-### 2023-04-13
-
-- 发布 1.0.2 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.2)
+### [1.0.2](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.0.2) (2023-04-13)
 
 - 优化 AppAreaPicker加载动画
 
 - 优化 代码规范
 
-### 2023-04-03
-
-- 发布 1.0.1 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.1)
+### [1.0.1](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.0.1) (2023-04-03)
 
 - 新增 集成xiaohejs@0.0.9
 
@@ -107,16 +93,14 @@ icon: blog
 
 - 优化 部分代码格式
 
-### 2023-03-28
-
-- 发布 1.0.0正式版 [查看](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter/releases/tag/1.0.0)
+### [1.0.0](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.0.0) (2023-03-28)
 
 - 新增 集成小何同学的JavaScript工具箱 [xiaohejs](https://github.com/xiaohe0601/xiaohejs)
 
-### 2023-02-24
+### [1.0.0-beta](https://github.com/xiaohe0601/xiaohe-uniapp) (2023-02-24)
 
 - 优化 Tabbar页面性能（注意：调整了Tabbar页面的实现方式，改动较大）
 
-### 2022-11-30
+### [1.0.0-alpha](https://github.com/xiaohe0601/xiaohe-uniapp) (2022-11-30)
 
-- 1.0版本首次提交，并快速优化迭代
+- 1.0.0版本首次提交，并快速优化迭代

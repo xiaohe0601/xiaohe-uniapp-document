@@ -7,7 +7,7 @@
 
 ### 🚁 项目仓库
 
-[🎈 github](https://github.com/xiaohe0601/uniapp-vue2-hbx-starter) / [🎗️ gitee](https://gitee.com/xiaohe0601/uniapp-vue2-hbx-starter) / 🎃 no more
+[🎈 github](https://github.com/xiaohe0601/xiaohe-uniapp) / [🎗️ gitee](https://gitee.com/xiaohe0601/xiaohe-uniapp) / 🎃 no more
 
 ### 🛩️ 在线文档
 

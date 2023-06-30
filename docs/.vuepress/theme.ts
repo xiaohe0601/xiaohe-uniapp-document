@@ -57,7 +57,7 @@ export default HopeTheme({
     }
   },
   logo: "/logo.svg",
-  repo: "https://github.com/xiaohe0601/uniapp-vue2-hbx-starter",
+  repo: "https://github.com/xiaohe0601/xiaohe-uniapp",
   editLink: false,
   displayFooter: true,
   copyright: `MIT License | Copyright ©️ 2022 <a href="https://github.com/xiaohe0601" target="_blank">小何同学</a>`,
