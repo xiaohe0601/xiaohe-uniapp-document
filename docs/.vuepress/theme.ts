@@ -33,8 +33,15 @@ export default HopeTheme({
           "app-navbar",
           "app-tabbar",
           "app-safearea",
-          "app-video",
-          "app-area-picker"
+          "app-navigator",
+          "app-modal",
+          "app-picker",
+          "app-area-picker",
+          "app-datetime-picker",
+          "app-datetime-range-picker",
+          "app-calendar-picker",
+          "app-link-scroller",
+          "app-video"
         ],
         "/utils": [{
           text: "xiaohejs",

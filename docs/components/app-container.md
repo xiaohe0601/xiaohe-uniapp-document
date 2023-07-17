@@ -10,8 +10,8 @@ title: AppContainer 页面容器
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
-|percept|所在页面是否被展示（传入 `lifecycleMixin` 中的 `thePercept`）|Boolean|-|`false`|
-|lifecycle|所在页面生命周期（传入 `lifecycleMixin` 中的 `theLifecycle`）|String|-|`null`|
+|percept|所在页面是否被展示（传入 `lifecycleMixin` 中的 `percept`）|Boolean|-|`false`|
+|lifecycle|所在页面生命周期（传入 `lifecycleMixin` 中的 `lifecycle`）|String|-|`null`|
 |background-color|背景颜色|String|-|var(--color-bg-normal)|
 |status-front-color|状态栏前景色（若为 `auto` 则会根据当前主题的 `brightness` 自动变化颜色，详细请查看[主题](../guide/theme.md)部分）|String|auto / #ffffff / #000000|auto|
 |status-background-color|状态栏背景色（`auto` 同上）|String|auto / 16进制颜色值|auto|

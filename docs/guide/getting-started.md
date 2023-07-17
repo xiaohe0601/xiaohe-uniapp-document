@@ -5,7 +5,7 @@ icon: light
 
 1. 获取项目代码（以及后续更新项目基础代码说明）
 
-	- <badge text="推荐" type="tip" vertical="middle"></badge> `clone` 项目代码至本地，后续通过 `git` 更新项目基础代码
+	- <badge text="推荐" type="tip"></badge> `clone` 项目代码至本地，后续通过 `git` 更新项目基础代码
 
 		1. 按需修改项目文件夹名称，`CMD`（或 `Git Bash` 等其他工具）切换至项目目录
 

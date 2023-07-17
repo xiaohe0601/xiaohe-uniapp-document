@@ -5,7 +5,7 @@ icon: anonymous
 
 ### 介绍
 
-- <badge text="四年" type="danger" vertical="middle"></badge> Web前端开发、原生Android开发、Java开发，坐标成都
+- <badge text="四年" type="danger"></badge> Web前端开发、原生Android开发、Java开发，坐标成都
 
 - JavaScript、TypeScript、Java、Kotlin、Dart
 

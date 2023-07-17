@@ -11,7 +11,7 @@ icon: file
 
 ```vue {3-5,10-17}
 <template>
-  <app-container :percept="thePercept">
+  <app-container :percept="percept">
     <view class="my-button">
       <u-button text="这是一个按钮"></u-button>
     </view>
@@ -148,7 +148,7 @@ icon: file
 
 	- 项目中已修复缺陷，并且已向 `z-paging` 官方仓库提交PR，目前PR已被合入主分支，等官方更新版本后，会及时更新当前项目中的 `z-paging` 版本，若自行更新组件版本时，请注意当前修改项
 
-	- <badge text="已修复" type="tip" vertical="middle"></badge>~~`empty` (`/uni_modules/z-paging/components/z-paging/js/modules/empty.js`)~~
+	- <badge text="已修复" type="tip"></badge>~~`empty` (`/uni_modules/z-paging/components/z-paging/js/modules/empty.js`)~~
 
 		- ~~修复 `auto-hide-empty-view-when-loading` 为 `false` 且列表不为空时，加载中时列表底部仍然会出现空数据视图~~
 
@@ -157,7 +157,7 @@ icon: file
 - 项目中针对 `z-paging` 基于CssVar做了一些安全区域和主题切换方面的适配，使用方式及配置项如下
 
 	```vue
-	<app-container :percept="thePercept">
+	<app-container :percept="percept">
 	  <app-navbar title="页面标题"></app-navbar>
 
 	  <!-- 若需要修改css变量，建议在外层view的class或style中配置 -->
@@ -208,6 +208,8 @@ Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库
 	- `_.get`
 
 	- `_.set`
+
+	- `_.last`
 
 	- `_.cloneDeep`
 

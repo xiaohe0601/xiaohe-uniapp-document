@@ -35,7 +35,7 @@ icon: palette
 
 ```vue {48,49,55-58,60-63,66,69}
 <template>
-  <app-container :percept="thePercept">
+  <app-container :percept="percept">
     <app-navbar title="首页" :show-left="false"></app-navbar>
 
     <view class="theme-demo">
@@ -67,45 +67,45 @@ icon: palette
 </template>
 
 <script>
-  import AppTabbar from "@/components/AppTabbar.vue";
+import AppTabbar from "@/components/AppTabbar.vue";
 
-  import lifecycleMixin from "@/mixins/lifecycle.js";
+import lifecycleMixin from "@/mixins/lifecycle.js";
 
-  import { mapGetters } from "vuex";
+import { mapGetters } from "vuex";
 
-  export default {
-    components: { AppTabbar },
-    mixins: [lifecycleMixin],
-    data() {
-      return {};
-    },
-    computed: {
-      ...mapGetters({
-        currentIsDarkTheme: "theme/currentIsDarkTheme",
-        themeWithSystem: "theme/isThemeWithSystem"
-      })
-    },
-    methods: {
-      toggleDarkTheme(value) {
-        if (value) {
-          this.$store.commit("theme/setCurrentTheme", {
-            appTheme: "dark",
-            brightness: "dark"
-          });
-        } else {
-          this.$store.commit("theme/setCurrentTheme", {
-            appTheme: "light",
-            brightness: "light"
-          });
-        }
-
-        this.$store.commit("theme/setThemeWithSystem", { themeWithSystem: false });
-      },
-      toggleThemeWithSystem(value) {
-        this.$store.commit("theme/setThemeWithSystem", { themeWithSystem: value });
+export default {
+  components: { AppTabbar },
+  mixins: [lifecycleMixin],
+  data() {
+    return {};
+  },
+  computed: {
+    ...mapGetters({
+      currentIsDarkTheme: "theme/currentIsDarkTheme",
+      themeWithSystem: "theme/isThemeWithSystem"
+    })
+  },
+  methods: {
+    toggleDarkTheme(value) {
+      if (value) {
+        this.$store.commit("theme/setCurrentTheme", {
+          appTheme: "dark",
+          brightness: "dark"
+        });
+      } else {
+        this.$store.commit("theme/setCurrentTheme", {
+          appTheme: "light",
+          brightness: "light"
+        });
       }
+
+      this.$store.commit("theme/setThemeWithSystem", { themeWithSystem: false });
+    },
+    toggleThemeWithSystem(value) {
+      this.$store.commit("theme/setThemeWithSystem", { themeWithSystem: value });
     }
-  };
+  }
+};
 </script>
 
 <style lang="scss" scoped>

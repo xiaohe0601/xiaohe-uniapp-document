@@ -20,7 +20,7 @@ title: AppSafearea 安全区域
 
 	```vue {7}
 	<template>
-	  <app-container :percept="thePercept">
+	  <app-container :percept="percept">
 	    <app-navbar title="页面标题"></app-navbar>
 
 	    <!-- 页面内容 -->
@@ -34,7 +34,7 @@ title: AppSafearea 安全区域
 
 	```vue {8}
 	<template>
-	  <app-container :percept="thePercept">
+	  <app-container :percept="percept">
 	    <app-navbar title="页面标题"></app-navbar>
 
 	    <view :style="{height: `calc(100% - ${navigationBarHeight}px)`}">
@@ -50,7 +50,7 @@ title: AppSafearea 安全区域
 
 	```vue {7,11}
 	<template>
-	  <app-container :percept="thePercept">
+	  <app-container :percept="percept">
 	    <app-navbar title="页面标题"></app-navbar>
 
 	    <!-- 页面内容 -->

@@ -92,7 +92,7 @@ title: AppNavbar 导航栏
 
 			```vue {5,12,18}
 			<template>
-			  <app-container :percept="thePercept">
+			  <app-container :percept="percept">
 			    <app-navbar title="页面标题"></app-navbar>
 
 			    <view :style="{height: `calc(100% - ${navigationBarHeight}px)`}">
@@ -102,17 +102,17 @@ title: AppNavbar 导航栏
 			</template>
 
 			<script>
-			  import { mapGetters } from "vuex";
+			import { mapGetters } from "vuex";
 
-			  export default {
-			    // ...
-			    computed: {
-			      ...mapGetters({
-			        navigationBarHeight: "system/getNavigationBarHeight"
-			      })
-			    }
-			    // ...
-			  }
+			export default {
+				// ...
+				computed: {
+					...mapGetters({
+						navigationBarHeight: "system/getNavigationBarHeight"
+					})
+				}
+				// ...
+			}
 			</script>
 			```
 
@@ -120,7 +120,7 @@ title: AppNavbar 导航栏
 
 			```vue {5,13}
 			<template>
-			  <app-container :percept="thePercept">
+			  <app-container :percept="percept">
 			    <app-navbar title="页面标题"></app-navbar>
 
 			    <view class="page-container">
@@ -142,7 +142,7 @@ title: AppNavbar 导航栏
 
 			```vue {3,6,13,19,28}
 			<template>
-			  <app-container :percept="thePercept">
+			  <app-container :percept="percept">
 			    <app-navbar title="页面标题" :placeholder="false"></app-navbar>
 
 			    <view class="page-container">
@@ -153,17 +153,17 @@ title: AppNavbar 导航栏
 			</template>
 
 			<script>
-			  import { mapGetters } from "vuex";
+			import { mapGetters } from "vuex";
 
-			  export default {
-			    // ...
-			    computed: {
-			      ...mapGetters({
-			        navigationBarHeight: "system/getNavigationBarHeight"
-			      })
-			    }
-			    // ...
-			  }
+			export default {
+				// ...
+				computed: {
+					...mapGetters({
+						navigationBarHeight: "system/getNavigationBarHeight"
+					})
+				}
+				// ...
+			}
 			</script>
 
 			<style lang="scss" scoped>
@@ -177,7 +177,7 @@ title: AppNavbar 导航栏
 
 			```vue {3,6,14,18}
 			<template>
-			  <app-container :percept="thePercept">
+			  <app-container :percept="percept">
 			    <app-navbar title="页面标题" :placeholder="false"></app-navbar>
 
 			    <view class="page-container">

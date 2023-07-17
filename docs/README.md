@@ -56,8 +56,12 @@ features:
 
 ::: info 版本信息
 
-- 当前文档版本：<badge text="1.0.5" type="tip"></badge>
+- 当前文档版本：<badge text="1.1.3" type="tip"></badge>
 
-- 最新代码版本：<badge text="1.1.2" type="info"></badge> [链接](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.2)
+- 最新代码版本：<badge text="1.1.3" type="info"></badge> [链接](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.3)
 
+:::
+
+::: warning 注意
+文档更新不一定及时。实际开发中请以本文档作为参考，若有差异则以代码中的JsDoc或VueDoc为准，亦可直接阅读源码。
 :::

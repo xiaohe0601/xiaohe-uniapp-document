@@ -53,7 +53,7 @@ export default {
 ```
 :::
 
-### sources(value, options = `{baseUrl: #Config.http.sourceBaseUrl, domain: null}`)
+### sources(value, options = `{base: #Config.http.sourceBaseUrl, prefix: null}`)
 
 转换相对路径，为相对路径Url拼接基地址 [网络请求](../guide/network.md)
 

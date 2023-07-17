@@ -10,7 +10,7 @@ title: AppTabbar 底部导航栏
 
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
-|current|当前选中的tabbar-item下标|Number|-|`0`|
+|<badge text="1.1.0"></badge> current|当前选中的tabbar-item唯一标识 (即`key`)|Number / String|-|home|
 |show|是否展示tabbar|Boolean|-|`true`|
 |round|是否展示圆角（圆角大小：`--app-tabbar__body_radius`）|Boolean|-|`false`|
 |border|是否展示上边框（边框样式：`--app-tabbar__body_border`）|Boolean|-|`true`|
@@ -19,18 +19,13 @@ title: AppTabbar 底部导航栏
 
 |属性|说明|类型|可选值|默认值|
 |---|---|---|---|---|
+|<badge text="1.1.0"></badge> key|唯一标识|number / string|-|-|
 |text|名称（展示文字）|string|-|-|
 |path|页面路径|string|-|-|
 |icon|图标（图片绝对路径）|string|-|-|
 |iconSelected|选中状态图标（图片绝对路径）|string|-|-|
 |iconfont|字体图标（优先级高于icon）|string|-|-|
 |badgeKey|badge取值（需提供Vuex中的getters）|string|-|-|
-
-### Events
-
-|事件|说明|回调参数|
-|---|---|---|
-|input|当前选中组件名称变化|value：当前选中组件名称|
 
 ### CssVars（样式定制）
 
@@ -96,16 +91,22 @@ title: AppTabbar 底部导航栏
 
 1. 在 `/utils/config.js` 中配置 `route.tabbar.list` 选项，可配置的字段参考上方 `AppTabbarItem` 表格中的说明，示例如下
 
+	::: info
+	该配置可根据需要自行改造移动至本组件或 `VueX` 中，以应对动态tabbar的场景。
+	:::
+
 	```javascript
 	{
 	  route: {
 	    tabbar: {
 	      list: [{
+	        key: "home",
 	        text: "首页",
 	        path: "/pages/home/index",
 	        icon: "/static/icons/tabbar_home.png",
 	        iconSelected: "/static/icons/tabbar_home_selected.png"
 	      }, {
+	        key: "mine",
 	        text: "我的",
 	        path: "/pages/mine/index",
 	        icon: "/static/icons/tabbar_mine.png",
@@ -122,17 +123,17 @@ title: AppTabbar 底部导航栏
 
 	```vue
 	<template>
-	  <app-container :percept="thePercept">
+	  <app-container :percept="percept">
 	    <app-navbar title="首页" :show-left="false"></app-navbar>
 
 
-	    <app-tabbar :current="0"></app-tabbar>
+	    <app-tabbar current="home"></app-tabbar>
 
 	    <app-safearea :cushion-height="140"></app-safearea>
 	  </app-container>
 	</template>
 	```
 
-	- 其中 `app-tabbar` 上的 `current` 属性应填写当前页面在 `route.tabbar.list` 中的下标，比如上方的示例是“首页”，他在 `route.tabbar.list` 中的下标是 `0`，所以 `current` 应该传值 `0`
+	- 其中 `app-tabbar` 上的 `current` 属性应填写当前页面在 `route.tabbar.list` 中的 `key`，比如上方的示例是“首页”，他在 `route.tabbar.list` 中的 `key` 是 `"home"`，所以 `current` 应该传值 `"home"`
 
 	- 另外需要注意 `AppTabbar` 是 `fixed` 在页面上的，所以会挡住页面底部的内容，需要在可滚动部分的最后一项添加一个垫高（注意考虑安全区域），可以如上方所示使用 `AppSafearea` 组件

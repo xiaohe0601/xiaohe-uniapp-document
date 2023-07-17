@@ -1,5 +1,5 @@
 ---
-title: AppVideo 视频播放器
+title: AppModal 模态框
 ---
 
 ::: tip

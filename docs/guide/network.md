@@ -232,6 +232,7 @@ signal.task?.abort();
 |dataType|返回数据格式|string|json / 其他|json|
 |responseType|响应数据类型|string|text / arraybuffer|text|
 |toastError|是否提示错误信息|boolean|-|`true`|
+|<badge text="1.1.1"></badge> toastMethod|错误信息提示方式|string|toast / alert|toast|
 |showLoading|是否显示加载动画|boolean|-|`true`|
 |loadingText|加载文字|string|-|请稍候|
 |ignoreLoadingDelay|是否忽略等待弹窗延时（若为 `true`，等待弹窗会在请求开始时立即显示）|boolean|-|`false`|
@@ -239,8 +240,6 @@ signal.task?.abort();
 |signal|信号量（若提供则会将网络请求task回传至 `task` 属性，可用于中断请求等）|any|-|-|
 |third|是否为第三方请求（若为 `true`，则直接返回响应内容，不会进行进一步处理）|boolean|-|`false`|
 |authNotRedirect|是否禁用登录失效重定向|boolean|-|`false`|
-|authRedirectPage|登录失效重定向页面地址|string|-|`Config.http.redirectAuthPage`|
-|authRedirectAction|登录失效重定向方式|string|`null` / reLaunch / switchTab / navigateTo|`Config.http.redirectAuthAction`|
 |key|(仅 `_upload`) FormData上传时文件的key|string|-|file|
 |extra|(仅 `_upload`) FormData上传时的附加信息（会在上传时携带在FormData中）|Record<string, any>|-|-|
 

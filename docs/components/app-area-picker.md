@@ -11,10 +11,11 @@ title: AppAreaPicker 地区选择器
 |参数|说明|类型|可选值|默认值|
 |---|---|---|---|---|
 |code|地区编码|String|-|`null`|
-|show（支持 `.sync`）|是否展示选择器|Boolean|-|`false`|
+|show <badge text="sync" type="tip"></badge>|是否展示选择器|Boolean|-|`false`|
 |title|选择器标题|String|-|-|
 |level|选择地区层级|Number|-|`3`|
-|codeLevelLength|每级地区编码长度|Number|-|`2`|
+|<badge text="1.1.1"></badge> minLevel|最小可选层级|Number|-|`3`|
+|<badge text="1.1.1"></badge> codeLevelLength|每级地区编码长度|Number|-|`2`|
 |codePadChar|地区编码右补字符|String|-|0|
 |confirmText|确定按钮文字|String|-|确定|
 |cancelText|取消按钮文字|String|-|取消|
@@ -23,8 +24,8 @@ title: AppAreaPicker 地区选择器
 
 |事件|说明|回调参数|
 |---|---|---|
-|update:show|show的值改变|value：选择器是否展示|
-|confirm|点击确定|indexs：各列选中项索引，value：各列选中项的值，values：各列列表数据|
+|update:show|`show` 的值改变|`value`：选择器是否展示|
+|confirm|点击确定|`indexs`：各列选中项索引，`value`：各列选中项的值，`values`：各列列表数据|
 
 ### 相关说明
 
@@ -51,35 +52,39 @@ title: AppAreaPicker 地区选择器
 	1. 改造 `methods` 中的 `requestAreasByAdcode(adcode)` 方法用于获取地区数据
 
 		```javascript
-		async requestAreasByAdcode(adcode = "") {
+		async requestAreasByAdcode(adcode, index) {
+		  if (adcode == null) {
+		    return [_.cloneDeep(DefaultArea)];
+		  }
+
 		  try {
-		    this.loading = true;
-
 		    // 😀 根据实际情况调用接口查询指定区域下的子区域列表
-
 		    // const { data } = await apiQueryAreasByAdcode({
 		    //   "code": adcode
 		    // });
 
-		    // 😀 如果接口返回数据结构不是 {code, name, children} 的话，需要手动做一下转换
-		    // code：区域编码
-		    // name：区域名称
-		    // children：子区域列表（这里的值固定设置为null）
+		    // 😀 如果接口返回数据结构不是 {code, name, children} 的话, 需要手动做一下转换
+		    // code: 区域编码
+		    // name: 区域名称
+		    // children: 子区域列表 (这里的值固定设置为null)
 
-		    // return data.map((item) => ({
+		    // const areas = (data || []).map((item) => ({
 		    //   code: item.code,
 		    //   name: item.name,
 		    //   children: null
 		    // }));
 
-		    // 😀 接口调整完成后，移除下面这一行
+		    // if (index + 1 > this.minLevel) {
+		    //   return [_.cloneDeep(DefaultArea), ...areas];
+		    // }
+
+		    // return areas;
+
+		    // 😀 接口调整完成后, 移除下面这一行
 		    return [];
 		  } catch {
 		    return [];
-		  } finally {
-		    this.loading = false;
 		  }
-		}
 		```
 
 ### 使用示例
@@ -87,26 +92,24 @@ title: AppAreaPicker 地区选择器
 ```vue
 <template>
   <app-container>
-    <app-area-picker :show.sync="show"
-                     :code="code"
-                     @confirm="confirm"></app-area-picker>
+    <app-area-picker :show.sync="show" :code="code" @confirm="confirm"></app-area-picker>
   </app-container>
 </template>
 
 <script>
-  // 注意：示例中的变量名及方法名均为示意，实际情况应根据自己的业务场景按照实际意义命名，而无需跟prop同名
-  export default {
-    data() {
-      return {
-        show: false,
-        code: null
-      }
-    },
-    methods: {
-      confirm({ indexs, value, values }) {
-        console.log("地区选择器确定", indexs, value, values);
-      }
-    }
-  }
+// 注意：示例中的变量名及方法名均为示意，实际情况应根据自己的业务场景按照实际意义命名，而无需跟prop同名
+export default {
+	data() {
+		return {
+			show: false,
+			code: null
+		}
+	},
+	methods: {
+		confirm({ indexs, value, values }) {
+			console.log("地区选择器确定", indexs, value, values);
+		}
+	}
+}
 </script>
 ```

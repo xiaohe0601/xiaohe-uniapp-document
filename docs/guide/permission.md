@@ -7,7 +7,7 @@ icon: safe
 项目中基于[权限插件](https://ext.dcloud.net.cn/plugin?id=594)二次封装了权限申请方法(`/utils/permission.js`)，用于确保用户已授予权限后才会继续执行逻辑，并且支持同时申请微信小程序、Android、iOS多端权限（亦可根据需要自行扩展其他端），也兼容了用户拒绝授权的场景
 :::
 
-### ensurePermissionAuthorized(scope, config) <badge text="async" type="info" vertical="middle"></badge>
+### ensurePermissionAuthorized(scope, config) <badge text="async" type="info"></badge>
 
 确保用户已授予对应权限
 

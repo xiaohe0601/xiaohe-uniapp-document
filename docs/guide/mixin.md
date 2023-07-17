@@ -59,19 +59,19 @@ icon: material
 </template>
 
 <script>
-  import echartsMixin from "@/mixins/echarts.js";
+import echartsMixin from "@/mixins/echarts.js";
 
-  import chartsOption from "这里是自己的echarts配置数据路径";
+import chartsOption from "这里是自己的echarts配置数据路径";
 
-  export default {
-    mixins: [echartsMixin],
-    methods: {
-      async testUpdateChartsOption() {
-        // 只需一行即可实现图表的创建及更新，无需判断图表实例是否存在，方法内部会自动处理图表实例的创建及缓存
-        await this.updateEchartsOption(this.$refs.charts, "chartsInstance", chartsOption);
-      }
+export default {
+  mixins: [echartsMixin],
+  methods: {
+    async testUpdateChartsOption() {
+      // 只需一行即可实现图表的创建及更新，无需判断图表实例是否存在，方法内部会自动处理图表实例的创建及缓存
+      await this.updateEchartsOption(this.$refs.charts, "chartsInstance", chartsOption);
     }
   }
+}
 </script>
 ```
 
