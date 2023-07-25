@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o,c,a as e}from"./app-69f8464e.js";const n={},s=e("div",{class:"hint-container tip"},[e("p",{class:"hint-container-title"},"提示"),e("p",null,"文档正在编写中...")],-1),a=[s];function i(r,_){return o(),c("div",null,a)}const d=t(n,[["render",i],["__file","app-video.html.vue"]]);export{d as default};
