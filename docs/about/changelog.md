@@ -7,6 +7,24 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/xiaohe-uniapp/commits/main)
 :::
 
+### [1.1.4](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.4) (2023-07-25)
+
+- 优化 更新xiaohejs版本
+
+### [1.1.3](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.3) (2023-07-17)
+
+- 更新 AppTabbar文档
+
+### [1.1.2](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.2) (2023-07-05)
+
+- 新增 --color-success颜色css变量
+
+- 优化 重构AppVideo以支持live-player
+
+- 优化 部分bottom样式
+
+- 优化 更新依赖版本及优化代码格式
+
 ### [1.1.1](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.1) (2023-06-30)
 
 - 新增 AppModal组件
