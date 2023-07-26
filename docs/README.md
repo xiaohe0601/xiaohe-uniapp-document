@@ -56,7 +56,7 @@ features:
 
 ::: info 版本信息
 
-- 当前文档版本：<badge text="1.1.5" type="tip"></badge>
+- 当前文档版本：<badge text="1.1.6" type="tip"></badge>
 
 - 最新发行版本：[链接](https://github.com/xiaohe0601/xiaohe-uniapp/releases)
 
