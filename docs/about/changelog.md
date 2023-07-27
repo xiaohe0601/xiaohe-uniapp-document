@@ -7,6 +7,10 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/xiaohe-uniapp/commits/main)
 :::
 
+### [1.1.7](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.7) (2023-07-27)
+
+- 优化 更新xiaohejs@0.1.10版本
+
 ### [1.1.6](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.6) (2023-07-26)
 
 - 优化 更新xiaohejs@0.1.7版本
