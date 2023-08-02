@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://xiaohe-uniapp.myhdg.top/sitemap.xml
+Sitemap: https://xiaohe-uniapp.xiaohe.ink/sitemap.xml
