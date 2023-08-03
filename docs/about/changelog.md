@@ -7,6 +7,16 @@ icon: blog
 此处仅记录主要变更，详细更新日志请查看 [GitHub Commits](https://github.com/xiaohe0601/xiaohe-uniapp/commits/main)
 :::
 
+### [1.1.8](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.8) (2023-08-03)
+
+- 修复 APP-PLUS端对tabbar页面的判断
+
+- 修复 APP-PLUS端网络请求弹窗关闭
+
+- 修复 APP-PLUS端u-reset-button样式
+
+- 文档 更换域名
+
 ### [1.1.7](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.1.7) (2023-07-27)
 
 - 优化 更新xiaohejs@0.1.10版本
