@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as a,a as t}from"./app-73d36698.js";const c={},n=t("div",{class:"hint-container tip"},[t("p",{class:"hint-container-title"},"提示"),t("p",null,"文档正在编写中...")],-1),s=[n];function l(r,_){return o(),a("div",null,s)}const d=e(c,[["render",l],["__file","app-modal.html.vue"]]);export{d as default};
