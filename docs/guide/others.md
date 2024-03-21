@@ -6,7 +6,7 @@ icon: file
 ### [UView UI](https://www.uviewui.com)
 
 ::: info
-由于 `UView UI` 的组件都将 `virtualHost` 属性设置为 `true`，其目的是将 `微信小程序` 中的自定义节点设置成虚拟的，使其更加接近Vue组件的表现，能更好的使用flex属性，但是这同时也导致了一些问题，比如微信小程序端不直接给 `uview-ui` 的组件添加 `class`。`manifest` 中的 `mergeVirtualHostAttributes` 参数为 `true` 时，虽然可以合并 `class` 至 `uview-ui` 组件上，但是经测试并不能成功应用自定义 `class` 的属性，所以为了能够更好的多端兼容，若需要给 `uview-ui` 的组件添加 `class` 时，在其外层使用 `view` 包裹，并将 `class` 添加至外层 `view` 上，然后样式中在外层 `class` 下选择 `uview-ui` 组件的 `class` 进而去修改样式，示例如下
+由于历史原因，给 `uview-ui` 的组件添加 `class` 时，在其外层使用 `view` 包裹，并将 `class` 添加至外层 `view` 上，然后样式中在外层 `class` 下选择 `uview-ui` 组件的 `class` 进而去修改样式（后续会考虑改用 `mergeVirtualHostAttributes` 配置或者 `custom-` 属性改造），示例如下
 :::
 
 ```vue {3-5,10-17}
