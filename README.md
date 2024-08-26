@@ -17,7 +17,7 @@
 
 - [配置手册](https://xiaohe-uniapp.xiaohe.ink/config/global.html)
 
-- [小何同学](https://xiaohe-uniapp.xiaohe.ink/about/xiaohe.html)
+- [关于小何](https://xiaohe-uniapp.xiaohe.ink/about/xiaohe.html)
 
 ### 🎉 特性
 

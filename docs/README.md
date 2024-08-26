@@ -12,7 +12,7 @@ actions:
   - text: 配置手册
     link: /config/global
     type: default
-  - text: 关于小何同学
+  - text: 关于小何
     link: /about/xiaohe
     type: default
 features:

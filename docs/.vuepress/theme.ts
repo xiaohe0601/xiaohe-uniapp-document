@@ -3,9 +3,9 @@ import { hopeTheme as HopeTheme, navbar as Navbar, sidebar as Sidebar } from "vu
 export default HopeTheme({
   hostname: "https://xiaohe-uniapp.xiaohe.ink",
   author: {
-    name: "小何同学",
+    name: "小何",
     url: "https://github.com/xiaohe0601",
-    email: "HeDianGeng0601@outlook.com"
+    email: "xiaohe0601@outlook.com"
   },
   locales: {
     "/": {
@@ -67,7 +67,7 @@ export default HopeTheme({
   repo: "https://github.com/xiaohe0601/xiaohe-uniapp",
   editLink: false,
   displayFooter: true,
-  copyright: `MIT License | Copyright ©️ 2022 <a href="https://github.com/xiaohe0601" target="_blank">小何同学</a>`,
+  copyright: `MIT License | Copyright ©️ 2022 <a href="https://github.com/xiaohe0601" target="_blank">小何</a>`,
   iconAssets: "iconfont",
   darkmode: "toggle",
   themeColor: true,

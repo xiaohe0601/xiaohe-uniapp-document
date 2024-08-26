@@ -135,7 +135,7 @@ icon: blog
 
 ### [1.0.0](https://github.com/xiaohe0601/xiaohe-uniapp/releases/tag/1.0.0) (2023-03-28)
 
-- 新增 集成小何同学的JavaScript工具箱 [xiaohejs](https://github.com/xiaohe0601/xiaohejs)
+- 新增 集成小何的JavaScript工具箱 [xiaohejs](https://github.com/xiaohe0601/xiaohejs)
 
 ### [1.0.0-beta](https://github.com/xiaohe0601/xiaohe-uniapp) (2023-02-24)
 

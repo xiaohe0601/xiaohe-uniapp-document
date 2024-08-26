@@ -1,5 +1,5 @@
 ---
-title: 小何同学
+title: 关于小何
 icon: anonymous
 ---
 
@@ -21,6 +21,6 @@ icon: anonymous
 
 ### 联系
 
-- 📫：[HeDianGeng0601@outlook.com](mailto:HeDianGeng0601@outlook.com)
+- 📫：[xiaohe0601@outlook.com](mailto:xiaohe0601@outlook.com)
 
 - 🐧：1316740440（备注来意喔~ 😀）
